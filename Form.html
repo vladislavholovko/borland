@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About Me</title>
+	<link rel="stylesheet" type="text/css" href="#">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend><b>Коротко про мене</b></legend>
+				<p><label>Ім'я: <input type="text" size="40"></label></p> 
+				<p><label>Прізвище: <input type="text" size="40"></label></p>
+				<p><label>Стать:  
+					<label><input type="radio" name="sex" value="male"> Чоловіча </label>
+					<label><input type="radio" name="sex" value="female"> Жіноча</label>
+				</label></p>
+				<p><label>Вік: <input type="text" size="3"> років.</label></p>
+		</fieldset>
+		<p>
+		<fieldset>
+			<legend><b>Більш детально про мене</b></legend>
+			<label><input type="radio" name="sexi" value="youngMan">Молодий Чоловік</label><br>
+			<label><input type="radio" name="sexi" value="girl">Дівчина</label><br>
+			<label><input type="date"> Дата народження.</label><br>
+			<label><input type="text"> Сімейне положення.</label><br>
+			<label><input type="text"> Соціальний статус.</label><br>
+			<label><input type="text"> Місце проживвання.</label><br>
+			<p><b>Що ви зазвичай робите на вихідних:</b></p>
+				<label><input type="checkbox">Сплю</label><br>
+				<label><input type="checkbox">Гуляю з друзями</label><br>
+				<label><input type="checkbox">Ходжу на рибалку</label><br>
+				<label><input type="checkbox">Граю в ігри</label><br>
+			<p><b>Розповісти про форми в книзі, посвяченій HTML:</b></p>
+				<select>
+					<option>Перша форма</option>
+					<option>Друга форма</option>
+					<option>Третя форма</option>
+					<option>Четверта форма</option>
+				</select>
+			<p><b>Скільки книг ви прочитали за все своє життя:</b></p>
+
+					<label><input type="radio" name="book" value="0_10"> 0-10</input></label><br>
+					<label><input type="radio" name="book" value="11_20"> 11-20 </input></label><br>
+					<label><input type="radio" name="book" value="21_50"> 21-50 </input></label><br>
+					<label><input type="radio" name="book" value="50_over"> 50+ </input></label><br>
+
+			<p><b>Ваші кометарі:</b><br>
+				<textarea cols="50" rows="5"></textarea>
+				<p>
+					<select multiple size="3">
+						<option>Перша позиція</option>
+						<option>Друга позиція</option>
+						<option>Третя позиція</option>
+					</select>
+				</p>
+		</fieldset>
+		<p>
+		<fieldset>
+			<legend><b>І в заключення</b></legend>
+			<input type="text" placeholder="Це поле було введено до вас" size="28">
+			<p><label>
+					<b>Email:</b><br>
+					<input type="email" size="28">
+			</label></p>
+			<p><b>Хочете підписатися на саму круту розсилку спаму?</b><br>
+			<i>Виберіть категорію</i></p>
+			
+				<label><input type="checkbox"> Обладнання </label><br>
+				<label><input type="checkbox">Як приносити обіди</label><br>
+				<label><input type="checkbox"> Зароби мільйон за два дні!</label><br>
+			
+			<p><b>На скільки складна задача:</b></p>
+			<label><input type="radio" name="level" value="low"> Легко</label><br>
+			<label><input type="radio" name="level" value="normal"> Так собі</label><br>
+			<label><input type="radio" name="level" value="hard"> Ледь справився</label><br>
+		</fieldset>
+		<p>
+		<button>Відправити</button>
+	</form>
+</body>
+</html>
